@@ -1,0 +1,48 @@
+* /*universal reset*/
+{
+	margin:0; padding:0; text-align:left;
+}
+
+header /* the header of the webpages*/
+{	
+	padding: 10px 0 0 0; 
+	background-color : #7b32a8;
+	color:white;
+	text-align:center;
+}
+.nav
+{
+	text-align:right;
+}
+
+#maintxt
+{
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	
+}
+
+#left /*left image*/
+{
+	float : left;
+	padding-left:40px;
+}
+
+img /*right image*/
+{
+	float : right;
+	padding-right:40px;
+}
+
+footer
+{
+	text-align:center;
+	padding: 35px 0 0 0;
+	height: 60px;
+	background : #7b32a8;
+	Border: solid;
+	border-color : white;
+	color:white;
+	border-width: 1px;
+}

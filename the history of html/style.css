@@ -1,0 +1,57 @@
+* /*universal reset*/
+{
+	margin:0; padding:0; text-align:left;
+}
+
+#hdr /* the header of the webpages*/
+{	
+	padding: 10px 0 0 0; 
+	background : navy;
+	font-size:42px; 
+	position:top; 
+	width : 100%;
+	color:white;
+	height: 100px;
+	text-align : center;
+	Border: solid;
+	border-color : white;
+	border-width: 1px;
+}
+
+#maintxt
+{
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+	
+}
+
+#left /*left image*/
+{
+	float : left;
+	padding-left:40px;
+}
+
+img /*right image*/
+{
+	float : right;
+	padding-right:40px;
+}
+
+footer
+{
+	text-align:center;
+	padding: 35px 0 0 0;
+	height: 60px;
+	background : navy;
+	Border: solid;
+	border-color : white;
+	color:white;
+	border-width: 1px;
+}
+
+#img1
+{
+	background-color:grey;
+	padding-right:left;
+}

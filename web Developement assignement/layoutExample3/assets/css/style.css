@@ -1,0 +1,49 @@
+body 
+{
+	background-color: white;
+}
+ 
+#main
+{
+	background-color: white;
+	width: 70%;
+	margin: auto;
+	border: 1px black solid;
+}
+
+header,footer
+{
+	background-color: grey;
+	height: 10%;
+	text-align: center;
+	color: white;
+}
+
+#subContainer
+{
+	border: 1px green solid;
+}
+
+#leftMenu
+{
+	display: inline-block;
+	width: 20%;
+	min-height: 300px;
+	background-color: #cccccc;
+}
+
+#centerArea
+{
+	display: inline-block;
+	width: 60%;
+	min-height: 300px;
+}
+
+#rightMenu
+{
+	display: inline-block;
+	width: 20%;
+	min-height: 300px;
+	background-color: #cccccc;
+}
+

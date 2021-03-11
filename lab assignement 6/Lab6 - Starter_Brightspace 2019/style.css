@@ -1,0 +1,106 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #DDD;
+  height: 100%;
+}
+
+#main {
+  position: relative;
+  width: 800px;
+  margin: auto;
+  min-height: 800px;
+  height: 100%;
+}
+
+header {
+  background-image: url(https://thimbleprojects.org/jonmcire/74340/AungierStreet2_v2.jpg);
+  height: 20%;
+  min-height: 150px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#headerText {
+  padding-top: 40px;
+  text-align: center;
+  vertical-align: bottom;
+  color: yellow;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+  /*font-size: 20px;*/
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+section {
+  min-height: 300px;
+  background-color: white;
+}
+
+footer {
+  text-align: center;
+  min-height: 20px;
+  background-color: #777;
+  color: white;
+  font-size: 0.8em;
+}
+
+.contentSection {
+  padding-top: 10px;
+}
+
+.contentSection h2 {
+  color: darkgreen;
+  margin-left: 20px;
+}
+
+.contentSection p {
+  color: dimgray;
+  margin-left: 30px;
+}
+
+#textImg {
+  float: right;
+  width: 100px;
+  padding: 10px;
+}
+
+#fourPicsRow .floating-box {
+  display: inline-block;
+  width: 120px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin: 20px;
+}
+
+#fourPicsRow .floating-box img {
+  width: 110px;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  header, nav, .contentSection , .fourPicsRow , footer{
+    width:100%;
+    height: 100%;
+  }
